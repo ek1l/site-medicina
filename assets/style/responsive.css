@@ -1,0 +1,397 @@
+@import url(./style.css);
+
+
+@media (max-width: 1565px) {
+
+    .img-display {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        flex-wrap: wrap;
+       }
+
+}
+@media (max-width: 862px) {
+    .justify {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .justifyy {
+        display: flex;
+        margin-top: 130px;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+}
+
+@media (max-width: 530px) {
+
+    .img-do-lado img {
+
+        width: 450px !important;
+        height: 250px !important;
+
+    }
+}
+
+@media (max-width: 483px) {
+
+    .img-do-lado img {
+
+        width: 400px !important;
+        height: 200px !important;
+
+    }
+}
+
+@media (max-width: 490px) {
+
+.img-display {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.img-display img {
+    width: 100%;
+    max-width: 400px;
+}
+}
+
+
+@media (max-width: 1565px) {
+
+    .img-links {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 1360px) {
+
+    .texto-dentro {
+  text-align: center;
+    }
+
+    .img-do-lado img {
+        width: 800px;
+        height: 550px;
+
+    }
+
+    .borda {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        border-bottom: 2px solid black;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (max-width: 1265px) {
+
+    .texto-dentro {
+  text-align: center;
+    }
+
+    .img-do-lado img {
+        width: 700px;
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 1175px) {
+    .texto-dentro {
+        text-align: center;
+          }
+      
+          .img-do-lado img {
+              width: 600px;
+              height: 400px;
+          }
+}
+
+
+@media (max-width: 1065px) {
+    .texto-dentro {
+        text-align: center;
+          }
+      
+          .img-do-lado img {
+              width: 500px;
+              height: 300px;
+          }
+}
+
+
+
+@media (max-width: 960px)  {
+    .texto-mesmo {
+        width: 100%;
+        height: 300px;
+    }
+
+    .texto-dentro {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        height: 100px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .img-do-lado  {
+        width: 500px;
+        height: 300px;
+        padding-top: 100px;
+        display: flex;
+justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+@media (max-width: 960px)  {
+
+   .content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+   
+    align-items: center;
+     
+}
+
+}
+
+@media (max-width: 840px) {
+    .content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+         flex-direction: column;
+        align-items: center;
+         
+    }
+} 
+
+
+@media (max-width: 890px) {
+    .plano h1 {
+        color: white;
+        font-size: 35px;
+       }
+}
+
+@media (max-width: 750px) {
+    .plano h1 {
+        color: white;
+        font-size: 25px;
+       }
+}
+
+
+@media (max-width: 546px) {
+    .plano h1 {
+        color: white;
+        font-size: 20px;
+       }
+}
+
+
+@media (max-width: 440px) {
+    .plano h1 {
+        color: white;
+        font-size: 15px;
+       }
+}
+
+
+@media (max-width: 770px) {
+    .container-footer {
+        width: 100%;
+        height: 300px;
+        background-color: #1d9896;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 570px) {
+    .container-footer {
+        width: 100%;
+        height: 100%;
+        background-color: #1d9896;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .direitos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .num-mail {
+        padding-top: 30px;
+
+    }
+}
+
+
+@media (max-width: 1532px) {
+    .texto-na-imagem {
+        margin-top: 500px;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 1340px) {
+    .texto-na-imagem {
+        margin-top: 350px;
+        text-align: right;
+    }
+}
+
+
+
+@media (max-width: 1084px) {
+    .texto-na-imagem {
+        margin-top: 200px;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 1084px) {
+    .texto-na-imagem {
+        margin-top: 200px;
+        text-align: right;
+    }
+}
+
+
+
+@media (max-width: 817px) {
+    .texto-na-imagem {
+        margin-top: 200px;
+        text-align: right;
+    }
+
+    .texto-na-imagem h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .texto-na-imagem  #butu1 {
+        margin-top: 30px;
+        border: none;
+        background-color: #02a7c7;
+        border-radius: 50px;
+        padding: 5px 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .texto-na-imagem {
+        margin-top: 100px;
+        text-align: right;
+    }
+
+    .texto-na-imagem h1 {
+        color: white;
+        font-size: 35px;
+    }
+
+    .texto-na-imagem  #butu1 {
+        margin-top: 30px;
+        border: none;
+        background-color: #02a7c7;
+        border-radius: 50px;
+        padding: 5px 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+    .texto-na-imagem {
+        margin-top: 50px;
+        text-align: right;
+    }
+
+    .texto-na-imagem h1 {
+        color: white;
+        font-size: 25px;
+    }
+
+    .texto-na-imagem  #butu1 {
+        margin-top: 30px;
+        border: none;
+        background-color: #02a7c7;
+        border-radius: 50px;
+        padding: 5px 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 415px) {
+      
+    .img-do-lado img {
+        width: 100% !important;
+        max-width: 400px !important;
+        height: 300px;
+        padding: 20px;
+    }
+}
+
