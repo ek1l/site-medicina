@@ -675,9 +675,11 @@ section {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
-.section-container-5  img {
+.section-container-5  img{
     width: 100%;
+    max-width: 500px;
     cursor: pointer;
     max-width: 350px;
     transition: 0.3s;
@@ -700,3 +702,10 @@ section {
 .texto-baixo {
     font-size: 15px;
 }
+
+
+.plano {
+    background-color: #1d9896;
+    width: 100%;
+}
+
