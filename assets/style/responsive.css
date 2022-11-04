@@ -148,6 +148,31 @@
 
 
 
+@media (max-width: 520px) {
+    #menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top:120px !important;
+        right: 0px;
+        display: block;
+        z-index: 1000;
+        height: 0;
+        transition: .6s;
+        overflow-y: hidden;
+        visibility: hidden;
+        background-color: transparent ;
+        opacity: 0.9;
+        background: rgba(255, 255, 255, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+        border: 1px solid rgba(255, 255, 255, 0.46);
+             
+    }
+} 
+
+
 @media (max-width: 960px)  {
     .texto-mesmo {
         height: 300px;
