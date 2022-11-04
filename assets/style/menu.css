@@ -2,7 +2,7 @@
 
 
 
-@media (min-width: 700px) {
+@media (min-width: 955px) {
     #btnmobile {
         display: none;
     }
@@ -14,7 +14,8 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 955px) {
+
     #btnmobile {
         display: block;
         padding: .5rem 1rem;

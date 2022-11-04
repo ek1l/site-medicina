@@ -147,6 +147,7 @@ ul li a:hover {
 }
 
 
+
 #background {
     width: 100%;
     height: 1150px;
@@ -162,11 +163,17 @@ ul li a:hover {
 
 .texto-mesmo h1 {
  font-size: 40px;
+
 }
+
+
+
 
 .texto-mesmo p {
     font-size: 25px;
     line-height: 35px;
+    width:100%;
+    max-width: 600px;
 }
 
 .borda {
@@ -348,15 +355,18 @@ flex-direction: column;
      margin-bottom: 20px;
 }
 .textooo {
+    width: 100%;
     line-height: 35px;
     color: white;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .texto-align {
     background-color: #02a7c7;
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
