@@ -650,3 +650,41 @@ display: none;
         display: none;
     }
 }
+
+@media (max-width: 845px)  {
+
+    .sec-container-4 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .sec-container-3 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    
+    .bordha {
+        border: 1px solid black;
+        width:100%;
+        max-width: 800px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .imgsec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
+
