@@ -745,7 +745,6 @@ section {
     width: 1921;
    height: 920px;
     background-repeat: no-repeat;
-    background-size: contain;
     border-bottom: 80px solid #1d9896;
     background-image: url('../img-contato/Valle\ Care\ -\ Imagem\ 2.png');
 }
@@ -800,7 +799,8 @@ form {
 
 input {
     border: none;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
      border-radius: 10px;
      padding: 10px;
      margin-top: 10px;
@@ -911,6 +911,7 @@ gap: 30px;
     font-size: 40px;
     margin-bottom: 20px;
     color: red;
+
 }
 
 .sec-container-4 h2 {

@@ -1,0 +1,82 @@
+@import url(./style.css); 
+
+
+@media (max-width: 940px)  {
+    .content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 33px !important;
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px)  {
+
+    input {
+        border: none;
+        width: 100%;
+        max-width: 400px;
+         border-radius: 10px;
+         padding: 10px;
+         margin-top: 10px;
+    }
+
+    textarea {
+        margin-top: 10px;
+        border: none;
+        padding: 10px;
+        resize: none;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+
+    .formulario h1 {
+        font-size:30px;
+    }
+
+}
+
+
+
+@media (max-width: 513px)  {
+    .imgemergency img{
+        width: 300px ;
+    }
+
+    .imgsec img{
+        width: 300px !important;
+    }
+
+    .img-samu-do-lado img {
+        width: 100% !important;
+    }
+
+    .img-registro-atendimento img {
+        width: 100% !important;
+    }
+
+    #fonti {
+        font-size: 40px;
+    }
+
+    .wppe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wppe img {
+        width: 30px;
+    }
+
+    .formulario p {
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    
+}
+
+
