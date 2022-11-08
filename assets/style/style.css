@@ -742,9 +742,8 @@ section {
 }
 
 .sec-containeir2 {
-    max-width: 1687px;
-    width: 100%;
-    height:805px;
+    width: 1921;
+   height: 920px;
     background-repeat: no-repeat;
     background-size: contain;
     border-bottom: 80px solid #1d9896;
@@ -960,6 +959,12 @@ gap: 30px;
     margin-top: 20px;
     justify-content: center;
     gap: 50px;
+    width: 100%;
+}
+
+.img-samu-do-lado img {
+    width: 100%;
+    object-fit: contain;
 }
 
 
@@ -973,6 +978,10 @@ gap: 30px;
 .img-registro-atendimento {
     display: flex;
     justify-content: space-around;
+}
+
+.img-registro-atendimento img {
+    object-fit: contain;
 }
 
 .sec-container-8  {
