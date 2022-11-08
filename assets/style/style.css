@@ -5,9 +5,73 @@
     list-style: none;
 }
 
+
+@font-face {
+    font-family:titulo;
+    src: url('../fontes/BAHNSCHRIFT\ 1.TTF') format('truetype');
+}
+
+@font-face {
+    font-family:textos;
+    src: url('../fontes/avenir-lt-std-65-medium.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family:menus;
+    src: url('../fontes/Corbel\ V2.ttf') format('opentype');
+}
+
+
+@font-face {
+    font-family:telefones;
+    src: url('../fontes/geometric\ 415\ black\ bt.ttf') format('opentype');
+}
+
+
+
+
+
+
 html {
     scroll-behavior: smooth;
 }
+
+
+
+.celu {
+    font-family: 'telefones';
+}
+
+button {
+    font-family: 'telefones';
+}
+
+a {
+    font-family: 'menus';
+}
+
+h1 {
+    font-family: 'titulo';
+}
+
+h2 {
+    font-family: 'titulo';
+}
+
+h3 {
+    font-family: 'textos';
+}
+
+h4 {
+    font-family: 'titulo';
+}
+
+p {
+ font-family: 'textos';
+}
+
+
 
 
 
@@ -383,7 +447,7 @@ main {
 }
 
 .textooo {
-    width: 100%;
+    width: 45%;
     line-height: 35px;
     color: white;
     display: flex;
