@@ -67,14 +67,24 @@ ul li a:hover {
     width: 250px;
 }
 
+
+
+
 .numero-cell h1 {
-    font-size: 30px;
+    font-size: 20px !important;
     color: #1d9896;
 
 }
 
 .numero-cell span {
-    font-size: 40px;
+    font-size: 25px;
+}
+
+
+.celu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 /* MAIN */

@@ -116,8 +116,10 @@
 
 @media (max-width: 520px) {
     #logo {
-        width: 150px;
+        width: 150px !important;
     }
+
+    
     .numero-cell h1,span {
         font-size: 25px !important;
         color: #1d9896;
