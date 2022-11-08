@@ -920,3 +920,71 @@ gap: 30px;
     color: #0096d1;
 }
 
+
+.img-abaixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-abaixo img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.sec-container5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seta-aponta-meio {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.seta-aponta-lados {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.img-samu-do-lado {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.seta-aponta-baixo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-registro-atendimento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-container-8  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+
+}
