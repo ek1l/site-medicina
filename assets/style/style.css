@@ -1071,3 +1071,29 @@ gap: 30px;
     align-items: center;
 
 }
+
+
+.whatzapp-fixed {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    background: transparent;
+    z-index: 999;
+    border-radius:10%;
+    transition: .5s;
+}
+
+.whatzapp-fixed:hover {
+ 
+    padding: 2px;
+    transition: .5s;
+    background: #0d7b00;
+}
+
+
+.whatzapp-fixed img {
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+}
