@@ -735,3 +735,188 @@ section {
     width: 100%;
 }
 
+
+
+.ft-fundo img{
+    width: 100%; 
+}
+
+.sec-containeir2 {
+    max-width: 1687px;
+    width: 100%;
+    height:805px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 80px solid #1d9896;
+    background-image: url('../img-contato/Valle\ Care\ -\ Imagem\ 2.png');
+}
+
+.formulario {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario  h1 {
+    font-size: 40px;
+    color: #07403f;
+}
+.formulario span {
+    font-size:55px;
+}
+
+.wppe {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.wppe img {
+    width: 60px;
+}
+
+#fonti {
+    font-size: 75px;
+}
+
+.formulario  p { 
+    font-size: 40px;
+}
+
+.bordinha-meio {
+    height: 300px;
+   border: 1px solid #1d9896;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    width: 500px;
+     border-radius: 10px;
+     padding: 10px;
+     margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    resize: none;
+    width: 500px;
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+#butu-pers {
+    background-color:#1d9896 ;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 520px;
+}
+
+
+
+.imgsec img{
+    width: 1000px;
+}
+
+.texto-samu h2 {
+    padding-bottom: 10px;
+}
+
+
+.texto-samu p {
+    font-size: 25px;
+}
+
+.sec-container-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.texto-samu h1{
+    margin-bottom: 20px;
+    width: 200px;
+ 
+     
+}
+.bordinhaa {
+    width: 110px;
+    margin-bottom: 20px;
+    border: 1px solid #02A7C7;
+}
+.texto-samu #butu8 {
+    padding: 10px 50px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #1d9896;
+    border-radius: 50px;
+    flex-direction: column;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+#butu8:hover {
+    padding: 10px 60px;
+}
+
+.redesss {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left:5px;
+}
+
+.redesss img{ 
+    width: 20px;
+    cursor: pointer;
+}
+
+.sec-container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.sec-container-4 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: red;
+
+}
+
+.sec-container-4 h2 {
+    font-size: 45px;
+    color: #0096d1;
+}
+
